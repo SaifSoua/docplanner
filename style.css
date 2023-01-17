@@ -1,0 +1,365 @@
+* {
+  margin: 3px 10px 3px 10px;
+  padding: 0px 15px 0px 15px;
+  font-family: Work Sans, Arial, sans-serif;
+}
+body {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ababab;
+}
+
+h1,
+h1,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+}
+
+p {
+  text-align: justify;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px -2px 10px 0px;
+}
+
+/* Utility classes */
+.container {
+  max-width: 1015px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.current {
+  color: #00b39b;
+}
+
+/* Navabar Style */
+.navbar {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.navbar .logo {
+  height: 33px;
+  width: 268px;
+}
+
+.navbar .main-nav {
+  display: flex;
+}
+
+.navbar .main-nav a {
+  padding: 0 9px;
+  font-size: 15px;
+}
+
+.navbar .main-nav a:hover {
+  color: #00b39b;
+}
+.navbar .dropdown {
+  position: relative;
+}
+.navbar .dropdown-content {
+  display: none;
+  position: absolute;
+  width: 220px;
+  background-color: #fff;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  right: 0;
+}
+.navbar .dropdown-content a {
+  display: block;
+  padding: 12px 16px;
+}
+.navbar .dropdown:hover .dropdown-content {
+  background-color: #f1f1f1;
+}
+.navbar .dropdown:hover .dropdown-content {
+  display: block;
+}
+main {
+  padding: 70px 0 0;
+  margin: 0 auto;
+}
+
+.introduction {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.introduction-logo {
+  width: 50px;
+  height: 50px;
+}
+.introduction-title {
+  color: #00b39b;
+  font-weight: 150;
+  text-align: center;
+  font-family: Work Sans, Arial, sans-serif;
+  font-size: 2.125rem;
+}
+.introduction-text {
+  display: flex;
+  justify-content: space-between;
+}
+p {
+  text-align: justify;
+  padding: 20px;
+  font-size: 20px;
+  color: grey;
+}
+.patient {
+  font-weight: 200;
+  font-size: 25px;
+}
+.service-card-title {
+  display: block;
+  margin: 20px;
+  padding: 20px;
+  font-weight: 400;
+}
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+.service-card {
+  border-radius: 10px;
+  color: white;
+  margin: 10px;
+  padding: 22px 0px;
+  width: 300px;
+  flex-direction: column;
+  font-weight: 400;
+  height: 345px;
+  position: relative;
+  transition: all 0.2s ease 0s;
+}
+.service-cardforpatient {
+  background-color: #5dc6b0;
+}
+.service-cardfordoctors {
+  background-color: #4293db;
+}
+.service-cardforclinic {
+  background-color: #1b2734;
+}
+.stats-container {
+  background-color: #bee1e6;
+  display: flex;
+  height: 380px;
+  padding: 4%;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.introduction-box {
+  width: 30%;
+}
+.introduction-box h1 {
+  color: rgb(0, 177, 159);
+  font-family: "Charmonman", cursive;
+  margin-bottom: 7%;
+}
+.introduction-box p {
+  opacity: 0.4;
+}
+.introduction-logo1 img {
+  height: 231px;
+  width: 100%;
+  margin-top: 5%;
+}
+.stats {
+  text-align: center;
+  width: 60%;
+  margin: 0 4% 0 19%;
+}
+.stats h1 {
+  color: rgb(0, 197, 155);
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+}
+.stats-box {
+  height: 190px;
+  background-color: white;
+  border-radius: 7%;
+  width: 45%;
+  margin-right: 5%;
+}
+.stats-box-colomn-2 {
+  display: flex;
+  margin-top: 5%;
+}
+.stats-box-colomn-1 {
+  display: flex;
+}
+.box-1 p {
+  margin-right: 17%;
+  margin-top: -5%;
+  font-size: 12px;
+  font-weight: 100;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  letter-spacing: 0.1;
+}
+.box-2 p {
+  margin-right: 17%;
+  margin-top: -5%;
+  font-size: 12px;
+  font-weight: 100;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  letter-spacing: 0.1;
+}
+.box-3 p {
+  margin-right: 17%;
+  margin-top: -5%;
+  font-size: 12px;
+  font-weight: 100;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  letter-spacing: 0.1;
+}
+.box-4 p {
+  margin-right: 17%;
+  font-size: 12px;
+  font-weight: 100;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  letter-spacing: 0.1;
+}
+.slogan-text {
+  margin-top: 15px;
+  color: #00b39b;
+  font-size: 1.625em;
+  font-weight: 500;
+}
+.span {
+  text-align: center;
+}
+.text-container {
+  width: 470px;
+  margin: 8% 31%;
+  text-align: center;
+}
+.text-div {
+  font-size: 0.875em;
+  line-height: 1.7;
+}
+.offices-description {
+  text-align: center;
+}
+.offices-description h1 {
+  color: rgb(0, 197, 155);
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 12px;
+}
+.offices-description p {
+  text-align: center;
+  color: black;
+  opacity: 0.7;
+  font-size: 12;
+}
+#countries {
+  display: flex;
+  flex-wrap: wrap;
+  height: 1000px;
+  padding: 10px;
+  display: block;
+}
+.country {
+  display: inline-block;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-right: 10px;
+  justify-content: space-around;
+}
+.country img {
+  width: 300px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.header2 {
+  color: #333;
+  text-align: center;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 80px;
+}
+.header22 {
+  font-weight: 300;
+  font-size: 500;
+}
+
+.btn--small {
+  font-size: 0.8rem;
+  width: 90px;
+  height: 10px;
+  padding: 20px;
+  display: inline;
+  font-weight: 300;
+}
+
+.btn {
+  display: inline;
+  vertical-align: middle;
+  position: relative;
+  outline: 0;
+  border: 0;
+  border-radius: 4px;
+  background: #3d83df;
+  font-family: Roboto, Arial, sans-serif;
+  line-height: 1em;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 0.2s ease 0s;
+}
+
+footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+footer p {
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: #ababab;
+  text-align: center;
+}
